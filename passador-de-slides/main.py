@@ -2,7 +2,7 @@ import cv2
 from cvzone.HandTrackingModule import HandDetector
 from pynput.keyboard import Key, Controller
 
-#ativar a webcam através do index;
+#ativar a webcam através do index, caso dê algum erro basta trocar o valor entre parênteses para 1,2,3...;
 video = cv2.VideoCapture(0)
 
 #resolução para a imagem da webcam
